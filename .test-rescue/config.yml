@@ -1,4 +1,2 @@
-dockerfile_commands:
-  - RUN cd $REPOSITORY_NAME && bundle exec rake test
 dependencies:
   ruby: 2.4.5
