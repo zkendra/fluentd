@@ -10,6 +10,7 @@ task test: [:base_test]
 # 1. update ChangeLog and lib/fluent/version.rb
 # 2. bundle && bundle exec rake build:all
 # 3. release 3 packages built on pkg/ directory
+# 4. profit
 namespace :build do
   desc 'Build gems for all platforms'
   task :all do
